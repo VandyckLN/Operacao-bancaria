@@ -18,7 +18,7 @@ Sistema de operações bancárias desenvolvido em Python que simula funcionalida
 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/sistema-bancario.git
+git clone https://github.com/VandyckLN/Operacao-bancaria.git
 ```
 
 2. Execute o programa
