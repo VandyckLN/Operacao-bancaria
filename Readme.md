@@ -1,51 +1,36 @@
-# Sistema de Operações Bancárias
+# Sistema Bancário em Python 🏦
 
 ## 📋 Descrição
 
-Sistema simples de operações bancárias desenvolvido em Python que simula funcionalidades básicas de um caixa eletrônico.
+Sistema de operações bancárias desenvolvido em Python que simula funcionalidades básicas de um caixa eletrônico, incluindo controle de transações diárias.
 
 ## 🔧 Funcionalidades
 
-### 1. Saque
+- Saque com limite diário
+- Depósito com confirmação
+- Consulta de saldo
+- Extrato detalhado
+- Controle de limite de 10 transações diárias
+- Registro de data e hora das operações
 
-- Permite realizar saques da conta
-- Verifica limite diário de R$ 1.000,00
-- Verifica se há saldo suficiente
-- Exibe o saldo atualizado após a operação
-- Apresenta mensagens de erro em caso de:
-  - Saldo insuficiente
-  - Limite diário excedido
+## 🚀 Como usar
 
-### 2. Depósito
+1. Clone o repositório
 
-- Permite realizar depósitos na conta
-- Solicita confirmação da operação
-- Valida valores negativos
-- Atualiza o saldo automaticamente
-- Exibe o saldo atualizado após a operação
+```bash
+git clone https://github.com/seu-usuario/sistema-bancario.git
+```
 
-### 3. Consulta de Saldo
-
-- Exibe o saldo atual da conta
-- Formata o valor com duas casas decimais
-- Apresenta o valor em reais (R$)
-
-### 4. Sistema de Menu
-
-- Interface intuitiva por linha de comando
-- Opções numeradas de 4 a 7
-- Opção de saída do sistema
-- Validação de opções inválidas
-
-## 🚀 Como Executar
-
-1. Certifique-se de ter Python 3.x instalado
-2. Clone o repositório
-3. Execute o arquivo `Operacao-bancarias.py`
+2. Execute o programa
 
 ```bash
 python Operacao-bancarias.py
 ```
+
+## 💻 Tecnologias
+
+- Python 3.x
+- Módulos: datetime, collections
 
 ## 💰 Configurações Iniciais
 
@@ -75,8 +60,8 @@ python Operacao-bancarias.py
 
 ## 👨‍💻 Autor
 
-[Seu Nome]
+[Vandyck LN]
 
 ## 📜 Licença
 
-Este projeto está sob a licença [TIPO_DE_LICENÇA].
+Este projeto está sob a licença MIT.
