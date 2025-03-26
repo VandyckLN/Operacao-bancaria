@@ -2,66 +2,69 @@
 
 ## 📋 Descrição
 
-Sistema de operações bancárias desenvolvido em Python que simula funcionalidades básicas de um caixa eletrônico, incluindo controle de transações diárias.
+Sistema bancário desenvolvido em Python que simula operações bancárias completas, incluindo cadastro de usuários, múltiplas contas e controle de transações.
 
 ## 🔧 Funcionalidades
 
-- Saque com limite diário
+### Usuários
+- Cadastro completo de usuários
+- Validação de CPF (11 dígitos)
+- Armazenamento de dados pessoais
+- Múltiplas contas por usuário
+
+### Contas
+- Geração automática de número de conta (11 dígitos)
+- Agência fixa (0001)
+- Vinculação com usuário
+- Múltiplas contas por cliente
+
+### Operações
+- Saque com limite diário de R$ 1.000,00
 - Depósito com confirmação
 - Consulta de saldo
-- Extrato detalhado
-- Controle de limite de 10 transações diárias
-- Registro de data e hora das operações
+- Extrato detalhado com data e hora
+- Limite de 10 transações diárias
+- Registro de todas as operações
+
+## 🏛️ Dados Bancários
+- Nome do Banco: VdkBANK
+- Agência: 0001
+- Contas: 11 dígitos sequenciais
 
 ## 🚀 Como usar
 
 1. Clone o repositório
-
 ```bash
 git clone https://github.com/VandyckLN/Operacao-bancaria.git
 ```
 
 2. Execute o programa
-
 ```bash
 python Operacao-bancarias.py
 ```
 
-## 💻 Tecnologias
-
+## 💻 Tecnologias Utilizadas
 - Python 3.x
-- Módulos: datetime, collections
-
-## 💰 Configurações Iniciais
-
-- Saldo inicial: R$ 830,00
-- Limite diário para saques: R$ 1.000,00
-- Banco: Bradesco
+- Módulos: 
+  - datetime (controle de data/hora)
+  - collections (gestão de transações)
 
 ## 🔒 Validações de Segurança
-
+- Validação completa de CPF
 - Verificação de saldo antes das operações
 - Confirmação de operações de depósito
-- Validação de valores negativos
 - Controle de limite diário para saques
+- Limite de transações diárias
+- Proteção contra valores negativos
 
-## 🛠️ Tecnologias Utilizadas
-
-- Python 3.x
-- Estruturas de controle de fluxo
-- Manipulação de tipos de dados
-- Formatação de strings
-
-## 📝 Notas
-
-- O sistema mantém o saldo em memória durante a execução
-- Todas as operações são formatadas com duas casas decimais
-- O sistema continua em execução até que a opção de saída seja selecionada
+## 📊 Controles
+- Extrato com data e hora das operações
+- Contador de transações diárias
+- Múltiplas contas por usuário
+- Saldo individual por conta
 
 ## 👨‍💻 Autor
-
-[Vandyck LN]
+[Vandyck LN](https://github.com/VandyckLN)
 
 ## 📜 Licença
-
 Este projeto está sob a licença MIT.
